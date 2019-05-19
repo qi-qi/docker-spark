@@ -33,3 +33,5 @@ RUN set -ex \
     && mv spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION} ${SPARK_HOME} \
     && rm spark-${SPARK_VERSION}-bin-hadoop${HADOOP_VERSION}.tgz \
     && chown -R root:root $SPARK_HOME
+
+WORKDIR $SPARK_HOME
