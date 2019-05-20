@@ -1,6 +1,8 @@
 # docker-spark
 ![Docker Build Status](https://img.shields.io/docker/cloud/build/qiqi/spark.svg)
 
+Package: spark-2.4.3-bin-hadoop2.7
+
 # Requirements
 - Docker: 18.06.0+
 
