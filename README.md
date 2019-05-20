@@ -19,6 +19,10 @@ Create a simple spark standalone cluster with docker-compose:
 ```bash
 docker-compose up
 ```
+Or run at the background
+```bash
+docker-compose up -d
+```
 
 SparkUI will be running at: `http://localhost:8080` with 2 workers listed.
 
