@@ -38,3 +38,6 @@ docker exec spark-master spark-submit \
 examples/jars/spark-examples_2.11-2.4.3.jar \
 100
 ```
+
+# Docker Repo
+[https://hub.docker.com/r/qiqi/spark](https://hub.docker.com/r/qiqi/spark)
